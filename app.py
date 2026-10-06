@@ -12,7 +12,7 @@ st.title(
 )
 st.write(
     "Ferramenta analítica baseada em perfis socioeconômicos, cruzando"
-    " **histórico parlamentar** e **trechos oficiais dos planos de governo"
+    " **histórico político** e **trechos oficiais dos planos de governo"
     " (TSE)**."
 )
 
@@ -45,15 +45,15 @@ pautas_por_perfil = {
     },
     "Micro e Pequeno Empresário": {
         "protecao_trabalhista": 3,
-        "desburocratizacao_empresas": 5,
+        "desburocratizacao_empresas": 4,
         "valorizacao_servico_publico": 2,
-        "liberdade_economica": 5,
+        "liberdade_economica": 4,
         "investimento_social_educacao": 3,
         "soberania_nacional": 5,
     },
     "Servidor Público": {
         "protecao_trabalhista": 4,
-        "desburocratizacao_empresas": 2,
+        "desburocratizacao_empresas": 1,
         "valorizacao_servico_publico": 5,
         "liberdade_economica": 2,
         "investimento_social_educacao": 4,
@@ -81,7 +81,7 @@ pautas_por_perfil = {
         "valorizacao_servico_publico": 3,
         "liberdade_economica": 1,
         "investimento_social_educacao": 5,
-        "soberania_nacional": 5,
+        "soberania_nacional": 4,
     },
     "Aposentado": {
         "protecao_trabalhista": 3,
@@ -106,10 +106,10 @@ perfis_candidatos = {
     "Flávio": {
         "protecao_trabalhista": 2,
         "desburocratizacao_empresas": 5,
-        "valorizacao_servico_publico": 3,
+        "valorizacao_servico_publico": 2,
         "liberdade_economica": 5,
         "investimento_social_educacao": 3,
-        "soberania_nacional": 3,
+        "soberania_nacional": 2,
     },
 }
 
